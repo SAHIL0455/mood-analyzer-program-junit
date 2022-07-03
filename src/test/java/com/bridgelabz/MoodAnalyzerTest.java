@@ -20,6 +20,6 @@ public class MoodAnalyzerTest {
     public void givenMassageIsNull(){
          MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
          String actualMood = moodAnalyzer.analyseMood();
-         Assert.assertEquals("null",actualMood);
+         Assert.assertEquals("Happy",actualMood);
      }
 }
